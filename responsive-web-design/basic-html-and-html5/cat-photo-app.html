@@ -8,13 +8,20 @@
   <h1>Welcome to Cat Photo App</h1>
   <h2>Cat Photo App</h2>
   <main>
-    <!-- the img element inserts an image on the web page -->
-    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-    alt="a cute cat lying on its back.">
-    <!-- Here, a link to other images are given -->
-    <a href="https://www.freecatphotoapp.com">cat photos</a>
     <!-- Internal links are created by assigning a hash symbol plus
   the value of the id attribute for the element one wants to internally link to -->
+    <a href="#footer">Jump to Footer</a>
+    <!-- the img element inserts an image on the web page -->
+    <!-- You can make an image into a link by nesting them within an a element -->
+    <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+      alt="Three kittens running towards the camera."></a>
+    <!-- The use of the hash symbol for href makes the link to be dead -->
+    <!-- Here, a link to other images are given -->
+    <p>View more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a></p>
+  <footer id="footer">&copy Cat Photo App</footer>
+    <!-- Dead links are made using the hash symbol -->
+    <p>This is a <a href="#" target="_blank">dead link</a><p>
+    <!-- To create a bulleted unordered list -->
   </main>
 </body>
 </html>
